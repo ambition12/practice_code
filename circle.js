@@ -29,4 +29,9 @@ function init(){
     ctx.arc(400,50,30,-1*Math.PI/6,Math.PI/6,true);
     ctx.closePath();
     ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(500,60);
+    ctx.arc(500,60,20,-Math.PI/3,2*Math.PI/3);
+    ctx.fill();
 }
